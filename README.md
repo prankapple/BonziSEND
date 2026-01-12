@@ -4,6 +4,12 @@
 
 A Python library that lets you interact with BonziBuddy via BonziCONNECT.
 
+> ⚠️ **Windows Only**
+>  
+> This library only works on **Windows** because it depends on `BonziCONNECT.exe`.
+> It will **not run on macOS or Linux**.
+
+
 ## Requirements
 You must download and run **BonziCONNECT.exe** before using this library.
 
@@ -40,3 +46,4 @@ Use :
 ```python
 BonziSEND.play("Wave")
 ```
+
