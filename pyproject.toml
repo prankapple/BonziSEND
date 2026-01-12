@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "BonziSEND"
+version = "0.1.0"
+description = "A Python library that lets you interact with BonziBuddy"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+  {name = "Prankapple", email = "cprn.al@gmail.com"}
+]
+
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/prankapple/BonziSEND"
